@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --ext ts,json --exec 'tsx ./src/app.ts'",
+    "dev": "nodemon --ext ts,json --exec \"tsx ./src/app.ts\"",
     "sync": "npx prisma db pull && npx prisma generate"
 },
   "keywords": [],
