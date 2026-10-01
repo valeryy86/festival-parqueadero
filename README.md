@@ -48,8 +48,8 @@ src/
 
 2. Copiar el archivo `.env.example`, llamarlo `.env` y poner la contraseña de la base donde dice `[YOUR-PASSWORD]`:
    ```
-   DATABASE_URL="postgresql://postgres.bvrtfkhqlmdsysfjcjtw:[YOUR-PASSWORD]@aws-0-ca-central-1.pooler.supabase.com:5432/postgres?sslmode=require&connection_limit=1&connect_timeout=30"
-   PORT=3000
+      DATABASE_URL="postgresql://postgres.bvrtfkhqlmdsysfjcjtw:[YOUR-PASSWORD]@aws-0-ca-central-1.pooler.supabase.com:5432/postgres?sslmode=require&connection_limit=3&connect_timeout=30&pool_timeout=30"
+      PORT=3000
    ```
 
 3. Traer las tablas de la base:
